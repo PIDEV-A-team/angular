@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 # until the package.json / lock changes
 COPY package*.json ./
 
-RUN npm install
+
 
 # copy over all code files
 COPY . .
